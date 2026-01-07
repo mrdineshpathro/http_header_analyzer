@@ -1,0 +1,314 @@
+{
+    "http://example.com/": {
+        "grade": "F",
+        "score": 15,
+        "results": [
+            {
+                "header": "X-Frame-Options",
+                "severity": "High",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Clickjacking protection."
+            },
+            {
+                "header": "Content-Security-Policy",
+                "severity": "High",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "XSS and Injection protection."
+            },
+            {
+                "header": "Strict-Transport-Security",
+                "severity": "High",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Enforces HTTPS (HSTS)."
+            },
+            {
+                "header": "X-Content-Type-Options",
+                "severity": "Medium",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Prevents MIME-sniffing."
+            },
+            {
+                "header": "Referrer-Policy",
+                "severity": "Medium",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Controls referrer information leakage."
+            },
+            {
+                "header": "Set-Cookie",
+                "severity": "High",
+                "passed": true,
+                "issues": [
+                    "Not Disclosed"
+                ],
+                "description": "Cookie security flags."
+            },
+            {
+                "header": "Server",
+                "severity": "Low",
+                "passed": false,
+                "issues": [
+                    "Disclosed: cloudflare"
+                ],
+                "description": "Server version information disclosed."
+            },
+            {
+                "header": "X-Powered-By",
+                "severity": "Low",
+                "passed": true,
+                "issues": [
+                    "Not Disclosed"
+                ],
+                "description": "Technology stack information disclosed."
+            }
+        ]
+    },
+    "http://google.com/": {
+        "grade": "F",
+        "score": 35,
+        "results": [
+            {
+                "header": "X-Frame-Options",
+                "severity": "High",
+                "passed": true,
+                "issues": [
+                    "Present"
+                ],
+                "description": "Clickjacking protection."
+            },
+            {
+                "header": "Content-Security-Policy",
+                "severity": "High",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "XSS and Injection protection."
+            },
+            {
+                "header": "Strict-Transport-Security",
+                "severity": "High",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Enforces HTTPS (HSTS)."
+            },
+            {
+                "header": "X-Content-Type-Options",
+                "severity": "Medium",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Prevents MIME-sniffing."
+            },
+            {
+                "header": "Referrer-Policy",
+                "severity": "Medium",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Controls referrer information leakage."
+            },
+            {
+                "header": "Set-Cookie",
+                "severity": "High",
+                "passed": true,
+                "issues": [
+                    "Not Disclosed"
+                ],
+                "description": "Cookie security flags."
+            },
+            {
+                "header": "Server",
+                "severity": "Low",
+                "passed": false,
+                "issues": [
+                    "Disclosed: gws"
+                ],
+                "description": "Server version information disclosed."
+            },
+            {
+                "header": "X-Powered-By",
+                "severity": "Low",
+                "passed": true,
+                "issues": [
+                    "Not Disclosed"
+                ],
+                "description": "Technology stack information disclosed."
+            }
+        ]
+    },
+    "http://www.google.com/": {
+        "grade": "F",
+        "score": 15,
+        "results": [
+            {
+                "header": "X-Frame-Options",
+                "severity": "High",
+                "passed": true,
+                "issues": [
+                    "Present"
+                ],
+                "description": "Clickjacking protection."
+            },
+            {
+                "header": "Content-Security-Policy",
+                "severity": "High",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "XSS and Injection protection."
+            },
+            {
+                "header": "Strict-Transport-Security",
+                "severity": "High",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Enforces HTTPS (HSTS)."
+            },
+            {
+                "header": "X-Content-Type-Options",
+                "severity": "Medium",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Prevents MIME-sniffing."
+            },
+            {
+                "header": "Referrer-Policy",
+                "severity": "Medium",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Controls referrer information leakage."
+            },
+            {
+                "header": "Set-Cookie",
+                "severity": "High",
+                "passed": false,
+                "issues": [
+                    "Disclosed: __Secure-STRP=AD6Dogs5FU__AiB8mZ163-FASPPqd651Vi8Me54D3purBY6sRESvHwlDundzQlWnJ_AzoCQiByoPWbAELO7lTdCoumJiDJ_ziY7a; expires=Wed, 07-Jan-2026 05:45:02 GMT; path=/; domain=.google.com; Secure; SameSite=strict, AEC=AaJma5ujYC363vw3B8euQlmOB0TD1l0_TFDuU3FyxX71vi86K7SX2EDl8w; expires=Mon, 06-Jul-2026 05:40:02 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax"
+                ],
+                "description": "Cookie security flags."
+            },
+            {
+                "header": "Server",
+                "severity": "Low",
+                "passed": false,
+                "issues": [
+                    "Disclosed: gws"
+                ],
+                "description": "Server version information disclosed."
+            },
+            {
+                "header": "X-Powered-By",
+                "severity": "Low",
+                "passed": true,
+                "issues": [
+                    "Not Disclosed"
+                ],
+                "description": "Technology stack information disclosed."
+            }
+        ]
+    },
+    "https://www.google.com/?gws_rd=ssl": {
+        "grade": "F",
+        "score": 15,
+        "results": [
+            {
+                "header": "X-Frame-Options",
+                "severity": "High",
+                "passed": true,
+                "issues": [
+                    "Present"
+                ],
+                "description": "Clickjacking protection."
+            },
+            {
+                "header": "Content-Security-Policy",
+                "severity": "High",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "XSS and Injection protection."
+            },
+            {
+                "header": "Strict-Transport-Security",
+                "severity": "High",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Enforces HTTPS (HSTS)."
+            },
+            {
+                "header": "X-Content-Type-Options",
+                "severity": "Medium",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Prevents MIME-sniffing."
+            },
+            {
+                "header": "Referrer-Policy",
+                "severity": "Medium",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Controls referrer information leakage."
+            },
+            {
+                "header": "Set-Cookie",
+                "severity": "High",
+                "passed": false,
+                "issues": [
+                    "Disclosed: __Secure-STRP=AD6Doguk1eG0bOMT3O_XPi3V0I2F8jaocakeqrfhD2KTi35GCr-h4w7ofNMjbcT2uzxLKlABb5LgwolCBfqmyC0xmI623frxWMz7; expires=Wed, 07-Jan-2026 05:45:03 GMT; path=/; domain=.google.com; Secure; SameSite=strict, __Secure-STRP=; expires=Mon, 01-Jan-1990 00:00:00 GMT; path=/; domain=www.google.com; Secure, __Secure-STRP=; expires=Mon, 01-Jan-1990 00:00:00 GMT; path=/; domain=.www.google.com; Secure, __Secure-STRP=; expires=Mon, 01-Jan-1990 00:00:00 GMT; path=/; domain=google.com; Secure, __Secure-STRP=; expires=Mon, 01-Jan-1990 00:00:00 GMT; path=/; domain=.google.com; Secure, NID=527=tJuONsdt7952bUwbcaVnrb8UezuiSJolWb151bCTq9vVS0zGEJakubWLHSWP5lJbAI-CxrCv8pzhpl0nryYFmwuToMalqkZuN5O-p_yM5trHrg4uFf925GW80u__twDNLeYX5GdhyLYZ4tc05guk0pAY83BrXI5JDUQQsqljJTtuaPb7Q3Pjnv3Z1BB75pyHdbwUvXBrL5MxEa-X2ydmSywy8MnKK6GP; expires=Thu, 09-Jul-2026 05:40:03 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none, __Secure-BUCKET=COcF; expires=Mon, 06-Jul-2026 05:40:03 GMT; path=/; domain=.google.com; Secure; HttpOnly"
+                ],
+                "description": "Cookie security flags."
+            },
+            {
+                "header": "Server",
+                "severity": "Low",
+                "passed": false,
+                "issues": [
+                    "Disclosed: gws"
+                ],
+                "description": "Server version information disclosed."
+            },
+            {
+                "header": "X-Powered-By",
+                "severity": "Low",
+                "passed": true,
+                "issues": [
+                    "Not Disclosed"
+                ],
+                "description": "Technology stack information disclosed."
+            }
+        ]
+    }
+}

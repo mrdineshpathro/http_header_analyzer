@@ -1,0 +1,263 @@
+{
+    "http://example.com": {
+        "grade": "F",
+        "score": 15,
+        "results": [
+            {
+                "header": "X-Frame-Options",
+                "severity": "High",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Clickjacking protection."
+            },
+            {
+                "header": "Content-Security-Policy",
+                "severity": "High",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "XSS and Injection protection."
+            },
+            {
+                "header": "Strict-Transport-Security",
+                "severity": "High",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Enforces HTTPS (HSTS)."
+            },
+            {
+                "header": "X-Content-Type-Options",
+                "severity": "Medium",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Prevents MIME-sniffing."
+            },
+            {
+                "header": "Referrer-Policy",
+                "severity": "Medium",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Controls referrer information leakage."
+            },
+            {
+                "header": "Access-Control-Allow-Origin",
+                "severity": "High",
+                "passed": true,
+                "issues": [
+                    "Not Disclosed"
+                ],
+                "description": "CORS Policy."
+            },
+            {
+                "header": "Set-Cookie",
+                "severity": "High",
+                "passed": true,
+                "issues": [
+                    "Not Disclosed"
+                ],
+                "description": "Cookie security flags."
+            },
+            {
+                "header": "Server",
+                "severity": "Low",
+                "passed": false,
+                "issues": [
+                    "Disclosed: cloudflare"
+                ],
+                "description": "Server version information disclosed."
+            },
+            {
+                "header": "X-Powered-By",
+                "severity": "Low",
+                "passed": true,
+                "issues": [
+                    "Not Disclosed"
+                ],
+                "description": "Technology stack information disclosed."
+            }
+        ]
+    },
+    "http://google.com": {
+        "grade": "F",
+        "score": 35,
+        "results": [
+            {
+                "header": "X-Frame-Options",
+                "severity": "High",
+                "passed": true,
+                "issues": [
+                    "Present"
+                ],
+                "description": "Clickjacking protection."
+            },
+            {
+                "header": "Content-Security-Policy",
+                "severity": "High",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "XSS and Injection protection."
+            },
+            {
+                "header": "Strict-Transport-Security",
+                "severity": "High",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Enforces HTTPS (HSTS)."
+            },
+            {
+                "header": "X-Content-Type-Options",
+                "severity": "Medium",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Prevents MIME-sniffing."
+            },
+            {
+                "header": "Referrer-Policy",
+                "severity": "Medium",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Controls referrer information leakage."
+            },
+            {
+                "header": "Access-Control-Allow-Origin",
+                "severity": "High",
+                "passed": true,
+                "issues": [
+                    "Not Disclosed"
+                ],
+                "description": "CORS Policy."
+            },
+            {
+                "header": "Set-Cookie",
+                "severity": "High",
+                "passed": true,
+                "issues": [
+                    "Not Disclosed"
+                ],
+                "description": "Cookie security flags."
+            },
+            {
+                "header": "Server",
+                "severity": "Low",
+                "passed": false,
+                "issues": [
+                    "Disclosed: gws"
+                ],
+                "description": "Server version information disclosed."
+            },
+            {
+                "header": "X-Powered-By",
+                "severity": "Low",
+                "passed": true,
+                "issues": [
+                    "Not Disclosed"
+                ],
+                "description": "Technology stack information disclosed."
+            }
+        ]
+    },
+    "http://www.google.com/": {
+        "grade": "F",
+        "score": 15,
+        "results": [
+            {
+                "header": "X-Frame-Options",
+                "severity": "High",
+                "passed": true,
+                "issues": [
+                    "Present"
+                ],
+                "description": "Clickjacking protection."
+            },
+            {
+                "header": "Content-Security-Policy",
+                "severity": "High",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "XSS and Injection protection."
+            },
+            {
+                "header": "Strict-Transport-Security",
+                "severity": "High",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Enforces HTTPS (HSTS)."
+            },
+            {
+                "header": "X-Content-Type-Options",
+                "severity": "Medium",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Prevents MIME-sniffing."
+            },
+            {
+                "header": "Referrer-Policy",
+                "severity": "Medium",
+                "passed": false,
+                "issues": [
+                    "Missing"
+                ],
+                "description": "Controls referrer information leakage."
+            },
+            {
+                "header": "Access-Control-Allow-Origin",
+                "severity": "High",
+                "passed": true,
+                "issues": [
+                    "Not Disclosed"
+                ],
+                "description": "CORS Policy."
+            },
+            {
+                "header": "Set-Cookie",
+                "severity": "High",
+                "passed": false,
+                "issues": [
+                    "Missing 'HttpOnly' flag (XSS risk)"
+                ],
+                "description": "Cookie security flags."
+            },
+            {
+                "header": "Server",
+                "severity": "Low",
+                "passed": false,
+                "issues": [
+                    "Disclosed: gws"
+                ],
+                "description": "Server version information disclosed."
+            },
+            {
+                "header": "X-Powered-By",
+                "severity": "Low",
+                "passed": true,
+                "issues": [
+                    "Not Disclosed"
+                ],
+                "description": "Technology stack information disclosed."
+            }
+        ]
+    }
+}
